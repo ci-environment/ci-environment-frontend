@@ -1,0 +1,77 @@
+@font-face {
+  font-family: VarelaRound-Regular;
+  src: url('../fonts/VarelaRound-Regular.ttf')
+}
+.nav {
+  font-family: VarelaRound-Regular;
+}
+#loginModal .modal-login {
+  color: #636363;
+  width: 350px;
+}
+#loginModal .modal-login .modal-content {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+}
+#loginModal .modal-login .modal-header {
+  border-bottom: none;
+  position: relative;
+  justify-content: center;
+}
+#loginModal .modal-login h4 {
+  text-align: center;
+  font-size: 26px;
+}
+#loginModal .modal-login  .form-group {
+  position: relative;
+}
+#loginModal .modal-login i {
+  position: absolute;
+  left: 13px;
+  top: 11px;
+  font-size: 18px;
+}
+#loginModal .modal-login .form-control {
+  padding-left: 40px;
+}
+#loginModal .modal-login .form-control:focus {
+  border-color: #00ce81;
+}
+#loginModal .modal-login .form-control, .modal-login .btn {
+  min-height: 40px;
+  border-radius: 3px; 
+}
+#loginModal .modal-login .hint-text {
+  text-align: center;
+  padding-top: 10px;
+}
+#loginModal .modal-login .close {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+#loginModal .modal-login .btn {
+  background: #00ce81;
+  border: none;
+  line-height: normal;
+}
+#loginModal .modal-login .btn:hover, .modal-login .btn:focus {
+  background: #00bf78;
+}
+#loginModal .modal-login .modal-footer {
+  background: #ecf0f1;
+  border-color: #dee4e7;
+  text-align: center;
+  margin: 0 -20px -20px;
+  border-radius: 5px;
+  font-size: 13px;
+  justify-content: center;
+}
+#loginModal .modal-login .modal-footer a {
+  color: #999;
+}
+#loginModal .trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}
